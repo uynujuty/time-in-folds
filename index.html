@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#eee9df" />
+  <title>TIME IN FOLDS｜时间的褶皱</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">TIME <span>IN</span> FOLDS</a>
+    <nav>
+      <a href="#work">作品</a><a href="#materials">材料档案</a><a href="#timeline">时间叙事</a><a href="#archive">创作档案</a>
+    </nav>
+    <button class="menu" aria-label="打开菜单">☰</button>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-kicker">A DIGITAL TEXTILE ART ARCHIVE · 2026</div>
+      <div class="hero-copy">
+        <p class="eyebrow">材料 · 时间 · 生命形态</p>
+        <h1>时间的<br><em>褶皱</em></h1>
+        <p class="english-title">TIME IN FOLDS</p>
+        <p class="intro">以织物为时间的刻度，让不同质地在同一生命形态中相遇。</p>
+        <a class="text-link" href="#work">进入作品展厅 <span>↘</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="halo"></div>
+        <img class="hero-image" src="assets/羊的完整图.png" alt="时间的褶皱：由多种织物构成的羊形艺术作品">
+        <div class="art-caption">FIG. 01 — THE FORM OF TIME</div>
+      </div>
+      <div class="hero-index">01 / 05</div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">01 — THE OBJECT</p>
+        <h2>作品展厅</h2>
+        <p>从整体形态进入，观察材料如何在时间中层叠、交织与成形。</p>
+      </div>
+      <div class="viewer">
+        <div class="viewer-image" id="viewerImage">
+          <img id="mainArtwork" src="assets/羊的完整图.png" alt="羊形织物艺术作品整体视图">
+          <span class="image-counter" id="imageCaption">整体视图 · FIG. 01</span>
+        </div>
+        <div class="viewer-controls">
+          <div><span class="eyebrow">VIEW</span><strong id="viewName">整体视图</strong></div>
+          <div class="view-buttons">
+            <button data-image="assets/羊的正面图.png" data-view="正面视图">正面</button>
+            <button class="active" data-image="assets/羊的完整图.png" data-view="整体视图">整体</button>
+            <button data-image="assets/羊的背面图.png" data-view="背面视图">背面</button>
+            <button data-image="assets/羊身细节图.png" data-view="身体细节">身体细节</button>
+            <button data-image="assets/羊角细节图.png" data-view="羊角细节">羊角细节</button>
+            <button data-image="assets/羊尾细节图.png" data-view="羊尾细节">羊尾细节</button>
+          </div>
+          <p class="hint">点击不同视图，查看作品的整体形态、不同角度与局部纹理。当前为图片切换展示，并非 3D 旋转。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section materials-section" id="materials">
+      <div class="section-heading">
+        <p class="eyebrow">02 — MATERIAL STUDY</p>
+        <h2>材料档案</h2>
+        <p>材料不仅构成形体，也保存触感、记忆与时间的痕迹。点击卡片，查看材料纹理。</p>
+      </div>
+      <div class="material-grid" id="materialGrid">
+        <button class="material-card" data-material="麻布" data-desc="粗粝而自然的纤维肌理，呈现时间留下的朴素痕迹。" data-images="麻布材料1.png|麻布材料2.png"><span>01</span><b>麻布</b><i>LINEN / HEMP</i><img src="assets/麻布材料1.png" alt="麻布纹理"><small>天然纤维 / 朴素肌理</small></button>
+        <button class="material-card" data-material="棉布" data-desc="细密而日常的织物结构，以经纬交错形成柔和的秩序。" data-images="棉布材料1.png|棉布材料2.png"><span>02</span><b>棉布</b><i>COTTON</i><img src="assets/棉布材料1.png" alt="棉布纹理"><small>经纬结构 / 日常记忆</small></button>
+        <button class="material-card" data-material="羊毛" data-desc="柔软、蓬松的纤维质感，为作品带来温度与厚度。" data-images="羊毛材料1.png|羊毛材料2.png"><span>03</span><b>羊毛</b><i>WOOL</i><img src="assets/羊毛材料1.png" alt="羊毛纹理"><small>柔软质感 / 温度</small></button>
+        <button class="material-card" data-material="丝绸" data-desc="流动的光泽与自然褶皱，形成细腻而富有变化的表面。" data-images="丝绸材料1.png|丝绸材料2.png"><span>04</span><b>丝绸</b><i>SILK</i><img src="assets/丝绸材料1.png" alt="丝绸纹理"><small>光泽 / 流动</small></button>
+        <button class="material-card" data-material="欧根纱" data-desc="轻盈、半透明的层次，为作品带来空间感与朦胧感。" data-images="欧根纱材料1.png|欧根纱材料2.png"><span>05</span><b>欧根纱</b><i>ORGANZA</i><img src="assets/欧根纱材料1.png" alt="欧根纱纹理"><small>透明层次 / 轻盈</small></button>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="section-heading">
+        <p class="eyebrow">03 — THE PASSAGE OF TIME</p>
+        <h2>时间叙事</h2>
+        <p>五个阶段，记录形体从空白到丰盈的过程。</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-list" role="tablist">
+          <button class="stage active" data-stage="0"><span>01</span>太初</button>
+          <button class="stage" data-stage="1"><span>02</span>经纬</button>
+          <button class="stage" data-stage="2"><span>03</span>积岁</button>
+          <button class="stage" data-stage="3"><span>04</span>成章</button>
+          <button class="stage" data-stage="4"><span>05</span>化境</button>
+        </div>
+        <article class="stage-detail">
+          <p class="eyebrow" id="stageNumber">STAGE 01</p>
+          <h3 id="stageTitle">太初</h3>
+          <p id="stageDescription">一切尚未被定义。空白的形体，等待第一缕纤维落下。</p>
+          <figure class="stage-figure">
+            <img id="stageArtwork" src="assets/羊的背面图.png" alt="作品时间叙事配图">
+            <figcaption id="stageCaption">从形体的背面，观察材料初始的铺展</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="section archive-section" id="archive">
+      <div class="archive-top">
+        <div><p class="eyebrow">04 — PROCESS & RESEARCH</p><h2>创作档案</h2></div>
+        <p>让灵感、材料研究与数字制作过程成为作品的一部分。</p>
+      </div>
+      <div class="archive-grid">
+        <div><span>01</span><h3>创作理念</h3><p>以不同年代与质感的织物构成羊的形体，让材料成为时间的刻度。</p></div>
+        <div><span>02</span><h3>材料研究</h3><p>通过麻布、棉布、羊毛、丝绸与欧根纱的肌理对比，探索材料之间的叠合关系。</p></div>
+        <div><span>03</span><h3>AIGC过程</h3><p>记录图像生成、提示词调整、方案筛选与视觉迭代过程。</p></div>
+        <div><span>04</span><h3>后期制作</h3><p>整理图像合成、细节调整与最终视觉输出过程。</p></div>
+      </div>
+    </section>
+  </main>
+  <footer><span>TIME IN FOLDS</span><span>材料是时间留下的形状。</span><span>2026</span></footer>
+
+  <dialog id="materialDialog">
+    <button class="dialog-close" aria-label="关闭">×</button>
+    <p class="eyebrow">MATERIAL NOTE</p><h3 id="dialogTitle">麻布</h3><p id="dialogDescription"></p>
+    <div class="dialog-images" id="dialogImages"></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
